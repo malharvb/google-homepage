@@ -1,8 +1,10 @@
 body
 {
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
 }
+
 .logo
 {
     display: block;
@@ -37,20 +39,25 @@ body
     list-style-type: none;
     margin: 0;
     padding: 10px;
-    overflow: hidden;
     display: block;
     position: relative;
+    overflow: hidden;
     left: 105em;
+
 }
 
 .footer
 {
+    overflow: hidden;
     list-style-type: none;
     position: relative;
-    top: 31em;
+    display: block;
     background-color: #f2f2f2;
-    padding-top: 4px;
-    padding-bottom: 25px;
+    top: 32em;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
 }
 
 #right
